@@ -53,7 +53,7 @@ Son komut aşağıdaki gibi bir çıktı vermeli
 [fuatsezer@localhost bin]$ sudo chmod 755 *.sh
 [fuatsezer@localhost bin]$ ls -l
 [fuatsezer@localhost bin]$ cd ..
-sudo chown -R fuatsezer .
+[fuatsezer@localhost bin]$ sudo chown -R fuatsezer .
 [fuatsezer@localhost kafka]$ bin/zookeeper-server-start.sh  -daemon config/zookeeper.properties
 [fuatsezer@localhost kafka]$ bin/kafka-server-start.sh -daemon config/server.properties
 ```
